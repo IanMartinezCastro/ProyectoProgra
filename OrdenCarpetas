@@ -24,26 +24,16 @@ Orden de carpetas recomendadas
 │   │   │   │   │   ├── Notificacion.java
 │   │   │   │   │   └── InformacionDestino.java
 │   │   │   │   │
-│   │   │   │   ├── /repositorio
-│   │   │   │   │   ├── UsuarioRepositorio.java
-│   │   │   │   │   ├── DestinoRepositorio.java
-│   │   │   │   │   ├── ItinerarioRepositorio.java
-│   │   │   │   │   ├── ReservaRepositorio.java
-│   │   │   │   │   ├── PublicacionRepositorio.java
-│   │   │   │   │   ├── NotificacionRepositorio.java
-│   │   │   │   │   └── InformacionDestinoRepositorio.java
+│   │   │   │   ├── /vistas
+│   │   │   │   │   ├── UsuarioVista.java
+│   │   │   │   │   ├── DestinoVista.java
+│   │   │   │   │   ├── ItinerarioVista.java
+│   │   │   │   │   ├── ReservaVistas.java
+│   │   │   │   │   ├── PublicacionVista.java
+│   │   │   │   │   ├── NotificacionVista.java
+│   │   │   │   │   └── InformacionVista.java
 │   │   │   │   │
-│   │   │   │   ├── /servicio
-│   │   │   │   │   ├── UsuarioServicio.java
-│   │   │   │   │   ├── DestinoServicio.java
-│   │   │   │   │   ├── ItinerarioServicio.java
-│   │   │   │   │   ├── ReservaServicio.java
-│   │   │   │   │   ├── SocialServicio.java
-│   │   │   │   │   ├── NotificacionServicio.java
-│   │   │   │   │   └── InformacionDestinoServicio.java
 │   │   │   │   │
-│   │   │   │   ├── /seguridad
-│   │   │   │   │   └── ConfiguracionSeguridad.java
 │   │   │   │   │
 │   │   │   │   └── /dto
 │   │   │   │       ├── UsuarioDTO.java
@@ -57,17 +47,17 @@ Orden de carpetas recomendadas
 │   │   └── /recursos
 │   │       └── application.properties
 │   │
-│   ├── /test
-│   │   ├── /java
-│   │   │   └── /com/tuempresa/tuapp
-│   │   │       ├── /controlador
-│   │   │       ├── /servicio
-│   │   │       └── /repositorio
-│   │   └── /recursos
 │   │
-├── /scripts
-│   ├── inicializacion_bd.sql
-│   └── /migraciones_bd
 │
 └── /documentos
     └── manual_de_usuario.md
+
+Descripción de las Carpetas y Archivos:
+/controlador: Clases que manejan ly coordinan la interacción entre la vista y la capa de servicio.
+/modelo: Clases que representan las entidades de la base de datos.
+/vistas: Interfaces que interactúan 
+/dto: Clases de Transferencia de Datos (DTO) utilizadas para intercambiar datos entre la capa de presentación y la lógica de negocio.
+/recursos: Archivos de configuración y otros recursos necesarios para la aplicación. ()
+
+
+/documentos: Documentación relevante del proyecto, como manuales de usuario.
