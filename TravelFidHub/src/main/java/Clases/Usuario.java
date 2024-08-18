@@ -4,7 +4,7 @@
  */
 package Clases;
 
-import javax.swing.JOptionPane;
+
 
 /**
  *
@@ -12,8 +12,5 @@ import javax.swing.JOptionPane;
  */
 public class Usuario {
     
-    public static void mensajes(){
-        JOptionPane.showMessageDialog(null, "esto es un intento de carga en github");
-    }
-    
+  
 }

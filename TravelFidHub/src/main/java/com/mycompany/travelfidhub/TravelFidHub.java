@@ -4,7 +4,7 @@
 
 package com.mycompany.travelfidhub;
 
-import Clases.Usuario;
+
 
 /**
  *
@@ -13,9 +13,6 @@ import Clases.Usuario;
 public class TravelFidHub {
 
     public static void main(String[] args) {
-        System.out.println("Hola Yo");
-        
-        Usuario nUsuario = new Usuario();
-        nUsuario.mensajes();
+   
     }
 }
