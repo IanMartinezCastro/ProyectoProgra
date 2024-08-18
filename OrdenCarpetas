@@ -1,0 +1,73 @@
+Orden de carpetas recomendadas 
+
+/tu-proyecto
+│
+├── /src
+│   ├── /main
+│   │   ├── /java
+│   │   │   ├── /com/tuempresa/tuapp
+│   │   │   │   ├── /controlador
+│   │   │   │   │   ├── UsuarioControlador.java
+│   │   │   │   │   ├── DestinoControlador.java
+│   │   │   │   │   ├── ItinerarioControlador.java
+│   │   │   │   │   ├── ReservaControlador.java
+│   │   │   │   │   ├── SocialControlador.java
+│   │   │   │   │   ├── NotificacionControlador.java
+│   │   │   │   │   └── InformacionDestinoControlador.java
+│   │   │   │   │
+│   │   │   │   ├── /modelo
+│   │   │   │   │   ├── Usuario.java
+│   │   │   │   │   ├── Destino.java
+│   │   │   │   │   ├── Itinerario.java
+│   │   │   │   │   ├── Reserva.java
+│   │   │   │   │   ├── Publicacion.java
+│   │   │   │   │   ├── Notificacion.java
+│   │   │   │   │   └── InformacionDestino.java
+│   │   │   │   │
+│   │   │   │   ├── /repositorio
+│   │   │   │   │   ├── UsuarioRepositorio.java
+│   │   │   │   │   ├── DestinoRepositorio.java
+│   │   │   │   │   ├── ItinerarioRepositorio.java
+│   │   │   │   │   ├── ReservaRepositorio.java
+│   │   │   │   │   ├── PublicacionRepositorio.java
+│   │   │   │   │   ├── NotificacionRepositorio.java
+│   │   │   │   │   └── InformacionDestinoRepositorio.java
+│   │   │   │   │
+│   │   │   │   ├── /servicio
+│   │   │   │   │   ├── UsuarioServicio.java
+│   │   │   │   │   ├── DestinoServicio.java
+│   │   │   │   │   ├── ItinerarioServicio.java
+│   │   │   │   │   ├── ReservaServicio.java
+│   │   │   │   │   ├── SocialServicio.java
+│   │   │   │   │   ├── NotificacionServicio.java
+│   │   │   │   │   └── InformacionDestinoServicio.java
+│   │   │   │   │
+│   │   │   │   ├── /seguridad
+│   │   │   │   │   └── ConfiguracionSeguridad.java
+│   │   │   │   │
+│   │   │   │   └── /dto
+│   │   │   │       ├── UsuarioDTO.java
+│   │   │   │       ├── DestinoDTO.java
+│   │   │   │       ├── ItinerarioDTO.java
+│   │   │   │       ├── ReservaDTO.java
+│   │   │   │       ├── PublicacionDTO.java
+│   │   │   │       ├── NotificacionDTO.java
+│   │   │   │       └── InformacionDestinoDTO.java
+│   │   │   │
+│   │   └── /recursos
+│   │       └── application.properties
+│   │
+│   ├── /test
+│   │   ├── /java
+│   │   │   └── /com/tuempresa/tuapp
+│   │   │       ├── /controlador
+│   │   │       ├── /servicio
+│   │   │       └── /repositorio
+│   │   └── /recursos
+│   │
+├── /scripts
+│   ├── inicializacion_bd.sql
+│   └── /migraciones_bd
+│
+└── /documentos
+    └── manual_de_usuario.md
