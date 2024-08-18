@@ -35,14 +35,14 @@ Orden de carpetas recomendadas
 │   │   │   │   │
 │   │   │   │   │
 │   │   │   │   │
-│   │   │   │   └── /dto
-│   │   │   │       ├── UsuarioDTO.java
-│   │   │   │       ├── DestinoDTO.java
-│   │   │   │       ├── ItinerarioDTO.java
-│   │   │   │       ├── ReservaDTO.java
-│   │   │   │       ├── PublicacionDTO.java
-│   │   │   │       ├── NotificacionDTO.java
-│   │   │   │       └── InformacionDestinoDTO.java
+│   │   │   │   └── /dao
+│   │   │   │       ├── UsuarioDAO.java
+│   │   │   │       ├── DestinoDAO.java
+│   │   │   │       ├── ItinerarioDAO.java
+│   │   │   │       ├── ReservaDAO.java
+│   │   │   │       ├── PublicacionDAO.java
+│   │   │   │       ├── NotificacionDAO.java
+│   │   │   │       └── InformacionDestinoDAO.java
 │   │   │   │
 │   │   └── /recursos
 │   │       └── application.properties
