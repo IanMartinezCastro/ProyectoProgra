@@ -1,18 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.travelfidhub;
 
+import Controlador.Nuevo_Usuario_Controlador;
 
-
-/**
- *
- * @author user
- */
 public class TravelFidHub {
 
     public static void main(String[] args) {
-   
+        
+        Nuevo_Usuario_Controlador vControladorNuevoUsuario = new Nuevo_Usuario_Controlador();
+        
+        vControladorNuevoUsuario.MostrarVista();
+        
     }
 }

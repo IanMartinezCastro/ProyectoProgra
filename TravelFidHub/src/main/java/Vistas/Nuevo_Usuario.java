@@ -4,6 +4,10 @@
  */
 package Vistas;
 
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JTextField;
+
 /**
  *
  * @author dcast
@@ -17,6 +21,78 @@ public class Nuevo_Usuario extends javax.swing.JFrame {
         initComponents();
     }
 
+    public JLabel getLblContrasenna() {
+        return lblContrasenna;
+    }
+
+    public JLabel getLblUsuario() {
+        return lblUsuario;
+    }
+
+    public JTextField getTxtContrasenna() {
+        return txtContrasenna;
+    }
+
+    public JTextField getTxtUsuario() {
+        return txtUsuario;
+    }
+
+    public JButton getBtnCrearUsuario() {
+        return btnCrearUsuario;
+    }
+
+    public JButton getBtnVolver() {
+        return btnVolver;
+    }
+
+    public JLabel getLblApellido() {
+        return lblApellido;
+    }
+
+    public JLabel getLblCorreo() {
+        return lblCorreo;
+    }
+
+    public JLabel getLblImagen() {
+        return lblImagen;
+    }
+
+    public JLabel getLblNombre() {
+        return lblNombre;
+    }
+
+    public JLabel getLblNuevoUsuario() {
+        return lblNuevoUsuario;
+    }
+
+    public JLabel getLblPrefContacto() {
+        return lblPrefContacto;
+    }
+
+    public JLabel getLblPrefViajes() {
+        return lblPrefViajes;
+    }
+
+    public JTextField getTxtApellido() {
+        return txtApellido;
+    }
+
+    public JTextField getTxtCorreo() {
+        return txtCorreo;
+    }
+
+    public JTextField getTxtNombre() {
+        return txtNombre;
+    }
+
+    public JTextField getTxtPrefContactos() {
+        return txtPrefContactos;
+    }
+
+    public JTextField getTxtPrefViajes() {
+        return txtPrefViajes;
+    }
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -27,76 +103,92 @@ public class Nuevo_Usuario extends javax.swing.JFrame {
     private void initComponents() {
 
         lblImagen = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        lblNuevoUsuario = new javax.swing.JLabel();
+        lblNombre = new javax.swing.JLabel();
         txtNombre = new javax.swing.JTextField();
-        jLabel4 = new javax.swing.JLabel();
+        lblApellido = new javax.swing.JLabel();
         txtApellido = new javax.swing.JTextField();
         txtCorreo = new javax.swing.JTextField();
-        jLabel5 = new javax.swing.JLabel();
+        lblCorreo = new javax.swing.JLabel();
         txtPrefViajes = new javax.swing.JTextField();
-        jLabel6 = new javax.swing.JLabel();
+        lblPrefViajes = new javax.swing.JLabel();
         txtPrefContactos = new javax.swing.JTextField();
-        jLabel7 = new javax.swing.JLabel();
+        lblPrefContacto = new javax.swing.JLabel();
         btnCrearUsuario = new javax.swing.JButton();
         btnVolver = new javax.swing.JButton();
+        lblContrasenna = new javax.swing.JLabel();
+        txtContrasenna = new javax.swing.JTextField();
+        lblUsuario = new javax.swing.JLabel();
+        txtUsuario = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         lblImagen.setIcon(new javax.swing.ImageIcon("E:\\Cliente Servidor\\Proyecto Final\\PFP1.jpg")); // NOI18N
 
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel2.setText("Nuevo Usuario");
+        lblNuevoUsuario.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        lblNuevoUsuario.setText("Nuevo Usuario");
 
-        jLabel3.setText("Nombre:");
+        lblNombre.setText("Nombre:");
 
-        jLabel4.setText("Apellido:");
+        lblApellido.setText("Apellido:");
 
-        jLabel5.setText("Correo electronico:");
+        lblCorreo.setText("Correo electronico:");
 
-        jLabel6.setText("Pref. de viaje:");
+        lblPrefViajes.setText("Pref. de viaje:");
 
-        jLabel7.setText("Pref. de contacto:");
+        lblPrefContacto.setText("Pref. de contacto:");
 
         btnCrearUsuario.setText("Crear usuario");
 
         btnVolver.setText("Volver");
 
+        lblContrasenna.setText("Contraseña:");
+
+        lblUsuario.setText("Usuario:");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(35, 35, 35)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnCrearUsuario)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnVolver))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel7)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING))
-                        .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(txtCorreo, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 302, Short.MAX_VALUE)
-                            .addComponent(txtPrefViajes)
-                            .addComponent(txtPrefContactos)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel3))
-                        .addGap(72, 72, 72)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblImagen, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtApellido, javax.swing.GroupLayout.DEFAULT_SIZE, 302, Short.MAX_VALUE)
-                            .addComponent(txtNombre))))
-                .addContainerGap(60, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel2)
+                .addComponent(lblNuevoUsuario)
                 .addGap(198, 198, 198))
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(154, 154, 154)
+                        .addComponent(lblImagen, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(30, 30, 30)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblPrefContacto)
+                                    .addComponent(lblPrefViajes)
+                                    .addComponent(lblCorreo, javax.swing.GroupLayout.Alignment.TRAILING))
+                                .addGap(18, 18, 18)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txtPrefViajes)
+                                    .addComponent(txtPrefContactos)
+                                    .addComponent(txtCorreo, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblApellido)
+                                    .addComponent(lblNombre)
+                                    .addComponent(lblContrasenna)
+                                    .addComponent(lblUsuario))
+                                .addGap(56, 56, 56)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(txtUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, 338, Short.MAX_VALUE)
+                                    .addComponent(txtContrasenna)
+                                    .addComponent(txtNombre)
+                                    .addComponent(txtApellido, javax.swing.GroupLayout.Alignment.TRAILING)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnCrearUsuario)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btnVolver)))))
+                .addContainerGap(29, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -104,32 +196,40 @@ public class Nuevo_Usuario extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(lblImagen, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2)
-                .addGap(28, 28, 28)
+                .addComponent(lblNuevoUsuario)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 61, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel3)
+                    .addComponent(lblUsuario)
+                    .addComponent(txtUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblContrasenna)
+                    .addComponent(txtContrasenna, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblNombre)
                     .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel4)
+                    .addComponent(lblApellido)
                     .addComponent(txtApellido, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtCorreo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5))
+                    .addComponent(lblCorreo))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
+                    .addComponent(lblPrefViajes)
                     .addComponent(txtPrefViajes, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel7)
+                    .addComponent(lblPrefContacto)
                     .addComponent(txtPrefContactos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(27, 27, 27)
+                .addGap(44, 44, 44)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnCrearUsuario)
                     .addComponent(btnVolver))
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addGap(44, 44, 44))
         );
 
         pack();
@@ -173,17 +273,21 @@ public class Nuevo_Usuario extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCrearUsuario;
     private javax.swing.JButton btnVolver;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel lblApellido;
+    private javax.swing.JLabel lblContrasenna;
+    private javax.swing.JLabel lblCorreo;
     private javax.swing.JLabel lblImagen;
+    private javax.swing.JLabel lblNombre;
+    private javax.swing.JLabel lblNuevoUsuario;
+    private javax.swing.JLabel lblPrefContacto;
+    private javax.swing.JLabel lblPrefViajes;
+    private javax.swing.JLabel lblUsuario;
     private javax.swing.JTextField txtApellido;
+    private javax.swing.JTextField txtContrasenna;
     private javax.swing.JTextField txtCorreo;
     private javax.swing.JTextField txtNombre;
     private javax.swing.JTextField txtPrefContactos;
     private javax.swing.JTextField txtPrefViajes;
+    private javax.swing.JTextField txtUsuario;
     // End of variables declaration//GEN-END:variables
 }

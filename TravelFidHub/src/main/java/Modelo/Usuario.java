@@ -2,17 +2,35 @@ package Modelo;
 
 public class Usuario {
     
-    private String nombre, apellido, correo, prreferenciasViaje, preferenciasContactos;    
+    private String usuario, contrasenna, nombre, apellido, correo, preferenciasViaje, preferenciasContactos;    
 
     public Usuario() {
     }
 
-    public Usuario(String nombre, String apellido, String correo, String prreferenciasViaje, String preferenciasContactos) {
+    public Usuario(String usuario, String contrasenna, String nombre, String apellido, String correo, String preferenciasViaje, String preferenciasContactos) {
+        this.usuario = usuario;
+        this.contrasenna = contrasenna;
         this.nombre = nombre;
         this.apellido = apellido;
         this.correo = correo;
-        this.prreferenciasViaje = prreferenciasViaje;
+        this.preferenciasViaje = preferenciasViaje;
         this.preferenciasContactos = preferenciasContactos;
+    }
+
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    public String getContrasenna() {
+        return contrasenna;
+    }
+
+    public void setContrasenna(String contrasenna) {
+        this.contrasenna = contrasenna;
     }
 
     public String getNombre() {
@@ -39,12 +57,12 @@ public class Usuario {
         this.correo = correo;
     }
 
-    public String getPrreferenciasViaje() {
-        return prreferenciasViaje;
+    public String getPreferenciasViaje() {
+        return preferenciasViaje;
     }
 
-    public void setPrreferenciasViaje(String prreferenciasViaje) {
-        this.prreferenciasViaje = prreferenciasViaje;
+    public void setPreferenciasViaje(String preferenciasViaje) {
+        this.preferenciasViaje = preferenciasViaje;
     }
 
     public String getPreferenciasContactos() {
