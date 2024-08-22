@@ -7,6 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 
 public class UsuarioDAO {
 
@@ -30,9 +31,9 @@ public class UsuarioDAO {
             comandoPreparado.executeUpdate();
 
         } catch (SQLException ex) {
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            JOptionPane.showMessageDialog(null, "Error"+ex.getMessage());
         }
-
     }
+    
 
 }
