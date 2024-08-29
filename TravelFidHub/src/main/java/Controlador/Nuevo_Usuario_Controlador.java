@@ -9,10 +9,8 @@ import javax.swing.JOptionPane;
 
 public class Nuevo_Usuario_Controlador implements ActionListener{
     
-    //VISTA
     private Nuevo_Usuario vVistaNuevoUsuario;
     
-    //MODELO 
     private Usuario vModeloUsuario;
     
     public Nuevo_Usuario_Controlador(){

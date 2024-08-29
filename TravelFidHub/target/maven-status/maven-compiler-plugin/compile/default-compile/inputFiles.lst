@@ -1,35 +1,17 @@
-/home/user/Escritorio/TravelFidHub/src/main/java/Vistas/PublicacionVista.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Modelo/Publicacion.java
-/home/user/Escritorio/TravelFidHub/src/main/java/DAO/PublicacionDAO.java
-/home/user/Escritorio/TravelFidHub/src/main/java/DAO/NotificacionDAO.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Modelo/Servidor.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Vistas/UsuarioVista.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Vistas/InformacionVista.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Controlador/ItinerarioControlador.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Controlador/SocialControlador.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Controlador/DestinoControlador.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Vistas/ReservaVista.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Vistas/ItinerarioVista.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Modelo/Destino.java
-/home/user/Escritorio/TravelFidHub/src/main/java/com/mycompany/travelfidhub/TravelFidHub.java
-/home/user/Escritorio/TravelFidHub/src/main/java/DAO/UsuarioDAO.java
-/home/user/Escritorio/TravelFidHub/src/main/java/DAO/DestinoDAO.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Vistas/NotificacionVista.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Controlador/ReservaControlador.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Vistas/ServidorVista.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Controlador/Nuevo_Usuario_Controlador.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Controlador/UsuarioControlador.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Modelo/Reserva.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Modelo/Usuario.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Modelo/Notificacion.java
-/home/user/Escritorio/TravelFidHub/src/main/java/DAO/ItinerarioDAO.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Controlador/InformacionDestinoControlador.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Vistas/Nuevo_Usuario.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Controlador/NotificacionesControlador.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Modelo/Itinerario.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Modelo/InformacionDestino.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Vistas/DestinoVista.java
-/home/user/Escritorio/TravelFidHub/src/main/java/DAO/InformacionDestinoDAO.java
-/home/user/Escritorio/TravelFidHub/src/main/java/DAO/ReservaDAO.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Vistas/Inicio_Sesion.java
-/home/user/Escritorio/TravelFidHub/src/main/java/Controlador/ServidorControlador.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Vistas\Alojamiento.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Vistas\Inicio_Sesion_Vista.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Vistas\PaginaPrincipal.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Vistas\ServidorVista.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Vistas\Destinos.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Vistas\Itinerario.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Vistas\MisViajes.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\DAO\UsuarioDAO.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Modelo\Servidor.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Vistas\PerfilUsuarioVista.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Controlador\ServidorControlador.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Modelo\Usuario.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Controlador\Nuevo_Usuario_Controlador.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Vistas\Actividades.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Modelo\Inicio_Sesion.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\Vistas\Nuevo_Usuario.java
+E:\Cliente Servidor\Proyecto Final\ProyectoProgra-main\TravelFidHub\src\main\java\com\mycompany\travelfidhub\TravelFidHub.java

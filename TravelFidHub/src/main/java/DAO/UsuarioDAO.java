@@ -19,11 +19,11 @@ public class UsuarioDAO {
 
         try {
             PreparedStatement comandoPreparado = conexion.prepareStatement(comando);
-
-            comandoPreparado.setString(1, pUsuario.getNombre());
-            comandoPreparado.setString(2, pUsuario.getApellido());
-            comandoPreparado.setString(3, pUsuario.getUsuario());
-            comandoPreparado.setString(4, pUsuario.getContrasenna());
+            
+            comandoPreparado.setString(1, pUsuario.getUsuario());
+            comandoPreparado.setString(2, pUsuario.getContrasenna());
+            comandoPreparado.setString(3, pUsuario.getNombre());
+            comandoPreparado.setString(4, pUsuario.getApellido());
             comandoPreparado.setString(5, pUsuario.getCorreo());
             comandoPreparado.setString(6, pUsuario.getPreferenciasViaje());
             comandoPreparado.setString(7, pUsuario.getPreferenciasContactos());
